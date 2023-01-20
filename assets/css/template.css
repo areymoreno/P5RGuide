@@ -1,0 +1,105 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.bg-blue{
+    color:#FFF !important;
+    background-color: blue !important;
+}
+
+.bg-green{
+    color:#FFF !important;
+    background-color: green !important;
+}
+
+.bg-red{
+    color:#FFF !important;
+    background-color: red !important;
+}
+
+.bg-black{
+    color: #FFF !important;
+    background-color: #000 !important;
+}
+
+.accordion-button:focus{
+    --bs-accordion-active-bg: #ff000080;
+    --bs-accordion-active-color: white;
+}
+
+.accordion-button{
+    --bs-accordion-active-bg: #ff000080;
+    --bs-accordion-active-color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/** CUSTOM CSS */
+
+.containerIndex{
+    margin: 10px;
+}
+
+.tagStore{
+    padding: 5px;
+    margin: 3px;
+}
+
+.imageIndex{
+    width: 100%;
+    margin: 10px;
+}
+
+.bg-thieves{
+    background-image: url("./../images/background.png");
+    background-position: center;
+    background-position-x: 30px;
+}
+
+.bg-full{
+    background-color: #d50002;
+}
+
+.phantom-logo{
+    width: 150px;
+}
+
+.primarySection{
+    margin-top: 15px;
+}
+
+.box-photo{
+    width: 50%;
+}
+
+.bg-dropdown {
+    background-color: #d50002;
+}
+.btn:hover {
+    background-color: #720002;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: #d50002;
+}
+
+.dropdown-menu.show{
+    border-color: #fff;
+}
+
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    margin-right: 10px;
+}
+
+.noFocus-border{
+    border-color: #fff;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: #720002;
+    border-color: #fff;
+}
+
+/** @media */
